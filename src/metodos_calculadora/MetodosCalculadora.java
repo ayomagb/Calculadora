@@ -22,4 +22,11 @@ public class MetodosCalculadora {
 	public double restar(){
 		return mc.getN1()-mc.getN2();
 	}
+	/**
+	 * double multiplicar()
+	 * @return n1*n2
+	 */
+	public double multiplicar(){
+		return mc.getN1()*mc.getN2();
+	}
 }
