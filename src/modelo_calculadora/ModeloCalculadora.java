@@ -4,9 +4,13 @@ public class ModeloCalculadora {
 	//atributos
 	private double n1;
 	private double n2;
+	//constructor sin parámetros
+	public ModeloCalculadora(){
+		n1=0.0;
+		n2=0.0;
+	}
 	//constructor con parámetros
 	public ModeloCalculadora(double n1, double n2) {
-		super();
 		this.n1 = n1;
 		this.n2 = n2;
 	}
