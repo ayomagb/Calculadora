@@ -15,4 +15,11 @@ public class MetodosCalculadora {
 	public double sumar(){
 		return mc.getN1()+mc.getN2();
 	}
+	/**
+	 * double restar()
+	 * @return n1-n2
+	 */
+	public double restar(){
+		return mc.getN1()-mc.getN2();
+	}
 }
